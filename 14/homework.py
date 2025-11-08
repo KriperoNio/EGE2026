@@ -37,8 +37,8 @@ pass # 11) 2024
 #         print(x)
 #         break
 pass # 23) 72450445
-for x in ([i for i in range(10)] + [chr(65+i) for i in range(11)]):
-    n = int(f'82934{x}2', base=21) + int(f'2924{x}{x}7', base=21) + int(f'67564{x}8', base=21)
-    if n%20 == 0:
-        print(n//20)
-        break
+# for x in ([i for i in range(10)] + [chr(65+i) for i in range(11)]):
+#     n = int(f'82934{x}2', base=21) + int(f'2924{x}{x}7', base=21) + int(f'67564{x}8', base=21)
+#     if n%20 == 0:
+#         print(n//20)
+#         break
